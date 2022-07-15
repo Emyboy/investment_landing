@@ -3,7 +3,7 @@
             <div class="banner-bg d-lg-none">
                 <img src="~assets/images/banner/banner-bg2.jpg" alt="banner">
             </div>
-            <div class="banner-bg d-none d-lg-block bg_img" data-background="~assets/images/banner/banner.jpg" style="background-image: url(~assets/images/banner/banner.jpg);">
+            <div class="banner-bg d-none d-lg-block bg_img" :data-background="`~assets/images/banner/banner.jpg`" :style="`background-image: url(${bg_img});`">
                 <div class="chart-1 wow fadeInLeft" data-wow-delay=".5s" data-wow-duration=".7s" style="visibility: visible; animation-duration: 0.7s; animation-delay: 0.5s; animation-name: fadeInLeft;">
                     <img src="~assets/images/banner/chart1.png" alt="banner">
                 </div>
@@ -69,8 +69,14 @@
 </template>
 
 <script>
+import img from '../../../assets/images/banner/banner.jpg'
 export default {
-
+    
+    data(){
+        return {
+            bg_img: img
+        }
+    }
 }
 </script>
 
