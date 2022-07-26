@@ -117,7 +117,26 @@ fieldset {
     margin: 0;
     padding: 0;
 }
-
+.country-selector__label {
+    /* margin: 0 !important; */
+    /* color: white !important; */
+}
+.country-selector__country-flag {
+    top: 32px !important;
+}
+.bg-accent {
+    background-color: #e35f46 !important;
+}
+.country-selector__list div {
+    padding-bottom: 0px !important;
+    /* margin: 0px !important; */
+}
+.dots-text {
+    margin: 1px !important;
+}
+.country-selector__list__item {
+    margin-top: 5px !important;
+}
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -7556,7 +7575,7 @@ body *::-webkit-scrollbar-track {
 }
 
 .account-form .form-group button {
-    border: none;
+    /* border: none;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -7567,7 +7586,7 @@ body *::-webkit-scrollbar-track {
     width: auto;
     padding: 0 45px;
     color: #ffffff;
-    margin-top: 20px;
+    margin-top: 20px; */
 }
 
 @media (min-width: 576px) {
