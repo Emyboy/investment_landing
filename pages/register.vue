@@ -123,6 +123,7 @@ import img from '~/assets/images/account-bg.jpg'
 import VuePhoneNumberInput from 'vue-phone-number-input'
 import 'vue-phone-number-input/dist/vue-phone-number-input.css'
 import AuthServices from '../services/AuthService'
+import Cookies from 'js-cookie'
 
 export default {
   data() {
@@ -150,19 +151,21 @@ export default {
           email: this.email,
           username: String(Date.now()),
           phone_number: this.phone_number,
-          password: this.password,
+          password: this.password
         }
         console.log('SENDING ---', data)
         const res = await AuthServices.register(data)
         console.log('REGISTERED --', res.data)
+        Cookies.set("token", res.data.jwt, { expires: 7 });
+        console.log('DASHBOARD URL --', process.env.DASHBOARD_URL)
+        // document.location.href = process.env.DASHBOARD_URL
+        console.log('THE ENV ---', process.env)
+
       } catch (error) {
         console.log('ERROR --', error)
         return Promise.reject(error)
       }
     },
-  },
-  mounted() {
-    console.log('THE ENV ---', process.env)
   },
   components: { VuePhoneNumberInput },
 }

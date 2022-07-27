@@ -52,6 +52,7 @@ export default {
 
   env: {
     BACKEND_URL: process.env.BACKEND_URL || 'http://localhost:1337/fake',
+    DASHBOARD_URL: process.env.DASHBOARD_URL
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
