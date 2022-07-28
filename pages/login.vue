@@ -29,37 +29,8 @@
           <span>OR</span>
         </div> -->
         <div class="account-body">
-          <h3 class="d-block mb-5">Register</h3>
+          <h3 class="d-block mb-5">Login</h3>
           <form class="account-form" @submit="registerUser">
-            <div class="row">
-              <div class="col-md-6 col-sm-12">
-                <div class="form-group">
-                  <label for="sign-up">First Name</label>
-                  <input
-                    name="first_name"
-                    required
-                    autofocus
-                    type="text"
-                    placeholder="Enter First Name "
-                    id="sign-up"
-                    v-model="first_name"
-                  />
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-12">
-                <div class="form-group">
-                  <label for="sign-up">Last Name</label>
-                  <input
-                    name="last_name"
-                    required
-                    type="text"
-                    placeholder="Enter Last Name"
-                    id="sign-up"
-                    v-model="last_name"
-                  />
-                </div>
-              </div>
-            </div>
             <div class="form-group">
               <label for="sign-up">Your Email </label>
               <input
@@ -67,14 +38,9 @@
                 type="email"
                 placeholder="Enter Your Email "
                 id="sign-up"
+                name="email"
                 v-model="email"
               />
-            </div>
-            <div class="form-group">
-              <label for="sign-up">Phone Number </label>
-              <!-- <input
-                required type="text" placeholder="Enter Your Email " id="sign-up" /> -->
-              <VuePhoneNumberInput id="sign-up" v-model="phone_number" />
             </div>
             <div class="form-group mt-4">
               <label for="sign-up">Password</label>
@@ -99,7 +65,7 @@
                 type="submit"
                 class="btn mt-4 bg-accent text-white custom-button"
               >
-                Register
+                Login
               </button>
               <span class="d-block mt-15"
                 >Already have an account?
@@ -130,9 +96,6 @@ export default {
     return {
       bg_img: img,
       showPTD: false,
-      first_name: '',
-      last_name: null,
-      phone_number: null,
       email: null,
       password: null,
     }
@@ -146,21 +109,13 @@ export default {
       e.preventDefault()
       try {
         const data = {
-          first_name: this.first_name.split(' ')[0],
-          last_name: this.last_name.split(' ')[0],
-          email: this.email,
-          username: String(Date.now()),
-          phone_number: this.phone_number,
+          identifier: this.email,
           password: this.password
         }
         console.log('SENDING ---', data)
-        const res = await AuthServices.register(data)
-        console.log('REGISTERED --', res.data)
+        const res = await AuthServices.login(data)
         Cookies.set("auth_token", res.data.jwt, { expires: 7 });
-        console.log('DASHBOARD URL --', process.env.DASHBOARD_URL)
-        document.location.href = process.env.DASHBOARD_URL + `/login/${res.data.jwt}`
-        console.log('THE ENV ---', process.env)
-
+        window.open(process.env.DASHBOARD_URL + `/login/${res.data.jwt}`, "_self")
       } catch (error) {
         console.log('ERROR --', error)
         return Promise.reject(error)

@@ -9,4 +9,13 @@ export default class AuthServices {
     })
     return res
   }
+
+  static async login(data) {
+    console.log('URL --', process.env.BACKEND_URL)
+    const res = await axios(process.env.BACKEND_URL + '/auth/local', {
+      method: 'POST',
+      data,
+    })
+    return res
+  }
 }
