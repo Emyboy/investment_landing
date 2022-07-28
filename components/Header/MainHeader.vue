@@ -36,7 +36,7 @@
                 </div>
               </li>
               <li>
-                <nuxt-link to="sign-in.html">Sign In</nuxt-link>
+                <nuxt-link to="/login">Sign In</nuxt-link>
               </li>
               <li>
                 <nuxt-link to="/register">Register</nuxt-link>
