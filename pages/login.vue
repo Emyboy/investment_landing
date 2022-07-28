@@ -35,6 +35,7 @@
               <label for="sign-up">Your Email </label>
               <input
                 required
+                autofocus
                 type="email"
                 placeholder="Enter Your Email "
                 id="sign-up"
