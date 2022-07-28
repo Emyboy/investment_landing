@@ -36,7 +36,6 @@
                 <div class="form-group">
                   <label for="sign-up">First Name</label>
                   <input
-                    name="first_name"
                     required
                     autofocus
                     type="text"
@@ -50,7 +49,6 @@
                 <div class="form-group">
                   <label for="sign-up">Last Name</label>
                   <input
-                    name="last_name"
                     required
                     type="text"
                     placeholder="Enter Last Name"
