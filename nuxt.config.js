@@ -13,6 +13,14 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    './assets/css/bootstrap.min.css',
+    './assets/css/all.min.css',
+    './assets/css/magnific-popup.css',
+    './assets/css/nice-select.css',
+    // './assets/css/slick.css',
+    './assets/css/animate.css',
+    './assets/css/line-awesome.min.css',
+    './assets/css/odometer.css',
     './assets/css/main.css',
   ],
 
