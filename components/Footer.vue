@@ -6,7 +6,7 @@
                     <div class="footer-widget">
                         <h3 class="widget-title">Know About Us</h3>
                         <p>
-                            Massain eu dictum in, facilisi mauriorci tincidunt. Mauris suspendisse, faucibus id tellus pellentesque vestibulupendisse mauris, tempus nibh ac, vel sit massa dui, ac curabitur feugiat blandit
+                            Meredith Finance has been trusted by millions of investors globally to manage investments for over a decade. With a wide range of investment opportunities that guarantee profits, our diverse set of performing assets can help you realize your full investment potential.
                         </p>
                         <ul class="social-icons">
                             <li>
