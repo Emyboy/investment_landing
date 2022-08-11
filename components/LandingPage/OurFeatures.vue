@@ -11,16 +11,21 @@
                     <div class="feature-content">
                         <div class="section-header">
                             <span class="subtitle">awesome hyip features</span>
-                            <h2 class="title">our best Hyip features</h2>
+                            <h2 class="title">Our Best Features</h2>
+                                <h4 class="title-two">Account Management</h4>
                             <p> 
-                                Dapibus et amet sociis, arcu orci orci tincidunt neque. Purus etortor sit  justmauris eu malesuada architecto.
+                                You can now deposit up to $150,000 in funds to trade with your preferred plan as soon as your account is funded.
                             </p>
                         </div>
-                        <h3 class="title-two">Account Management</h3>
+                        <h4 class="title-two">Profit Staking and Margin Investing</h4>
                         <p>
-                            Commodo lectus at vel, ante enim orci in erat nullam. Leo et libero in enim rutrum, nonummy senectus nonummy lacus a. Est dapibus nascetur vestibulum, purus cras aenean ut fermentum 
+                            If eligible, take advantage of a 5% interest borrow rate on margin investing and earn up to 18% APY by staking profits for at least 30 days. Invest more in market opportunities with greater purchasing power even in a down market.
                         </p>
-                        <ul class="feature-info-list">
+                        <h4 class="title-two mt-3">Escrow & Custodial Services </h4>
+                        <p>
+                            Meredith Finance provides a simple and flexible method for securely holding escrow funds in virtually every transaction type, including multiple stocks, currencies, and smart contract deals.
+                        </p>
+                        <!-- <ul class="feature-info-list">
                             <li>
                                 Bibendum purus feugiat at, dolor convallis auctor congue
                                 Aliquam urna et neque nulla proin
@@ -28,7 +33,7 @@
                             <li>
                                 Magnis faucibus amet irure metus, adipiscing ultricies elit interdum odio vel nibh.
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>

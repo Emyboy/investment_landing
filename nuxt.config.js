@@ -1,11 +1,16 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Crypto Trust',
+    title: 'Meredith Finance - Choose Your Plan',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'We have simplified investing by offering the following plans to help our clients earn high yields, build portfolios, and stake their profits for higher returns on investments.',
+      },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -51,7 +56,7 @@ export default {
 
   env: {
     BACKEND_URL: process.env.BACKEND_URL || 'http://localhost:1337/fake',
-    DASHBOARD_URL: process.env.DASHBOARD_URL
+    DASHBOARD_URL: process.env.DASHBOARD_URL,
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa

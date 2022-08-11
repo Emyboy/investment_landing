@@ -1,5 +1,5 @@
 <template>
-  <section class="footer-section bg_img" style="background: url(assets/images/footer/bg.png) no-repeat center top;">
+  <section class="footer-section bg_img" :style="`background: url(${img}) no-repeat center top;`">
         <div class="container">
             <div class="row gy-5">
                 <div class=" col-xl-3 col-lg-5 col-md-6 col-sm-6">
@@ -163,8 +163,13 @@
 </template>
 
 <script>
+import img from '../assets/images/footer/bg.png'
 export default {
-
+    data(){
+        return {
+            img
+        }
+    }
 }
 </script>
 

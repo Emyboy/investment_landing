@@ -7,7 +7,7 @@
     <LandingInvestmentPlan />
     <OurNumbers />
     <WhyStayWithUs />
-    <Reviews />
+    <!-- <Reviews /> -->
     <HowCanWeHelp />
     <Footer />
   </div>

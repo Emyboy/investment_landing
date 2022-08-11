@@ -1,5 +1,5 @@
 <template>
-  <section class="help-section  overflow-hidden">
+  <section class="help-section  overflow-hidden border-bottom pb-5" style="margin-bottom: 20vh;">
         <div class="container">
             <div class="row align-items-center gy-5 flex-column-reverse flex-lg-row">
                 <div class="col-lg-6">
