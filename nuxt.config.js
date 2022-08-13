@@ -20,8 +20,8 @@ export default {
   css: [
     './assets/css/bootstrap.min.css',
     './assets/css/all.min.css',
-    './assets/css/magnific-popup.css',
     './assets/css/nice-select.css',
+    './assets/css/magnific-popup.css',
     // './assets/css/slick.css',
     './assets/css/animate.css',
     './assets/css/line-awesome.min.css',
