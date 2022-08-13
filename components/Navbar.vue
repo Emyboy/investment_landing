@@ -5,7 +5,7 @@
                 <div class="header-area">
                     <div class="logo">
                         <nuxt-link to="/">
-                            <img src="~assets/images/logo.png" alt="logo" />
+                            <img src="~assets/logos/logo_white_landscape.png" alt="logo"  />
                         </nuxt-link>
                     </div>
                     <div class="header-trigger d-block d-lg-none">
