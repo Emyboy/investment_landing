@@ -7,7 +7,7 @@
                         <div class="section-header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                             <span class="subtitle">How to Do It</span>
                             <h2 class="title">try easy 3 stap to invest</h2>
-                            <p>Praesent nibh aut vivamusad quis in tortor aenean ligula non lacinia quisque. Purus nunc tellus nulla praesent quis porttitor sitarcu.</p>
+                            <p>Simply follow these three simple steps to begin investing. .</p>
                         </div>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                                         </div>
                                         <div class="how-work-item-content">
                                             <h4 class="title"><a href="sign-up.html">Quick Registration</a></h4>
-                                            <p>Consectetuer ante fringilla amet nunc ut at duis anteultricies.</p>
+                                            <p>Create an account to receive an encrypted personal wallet for your investment portfolio.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -33,7 +33,7 @@
                                         </div>
                                         <div class="how-work-item-content">
                                             <h4 class="title"><a href="investment-plan-01.html">Make An Invest</a></h4>
-                                            <p>Consectetuer ante fringilla amet nunc ut at duis anteultricies.</p>
+                                            <p>Choose an appropriate plan for your investment and take advantage of the benefits of reinvesting to earn compounding interest and high yields.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -46,7 +46,7 @@
                                 </div>
                                 <div class="how-work-item-content">
                                     <h4 class="title"><a href="login.html">Get Your Profit</a></h4>
-                                    <p>Consectetuer ante fringilla amet nunc ut at duis anteultricies.</p>
+                                    <p>Stake your profit for at least 30 days and earn 18% APY, or simply choose your preferred wallet or financial provider to withdraw your profits instantly..</p>
                                 </div>
                             </div>
                         </div>
