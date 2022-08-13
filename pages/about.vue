@@ -11,7 +11,7 @@
                         <h2 class="inner-banner-title">About our company</h2>
                         <ul class="breadcums">
                             <li>
-                                <a href="index.html">Home</a>
+                                <nuxt-link to="/">Home</nuxt-link>
                             </li>
                             <li>
                                 <span>About</span>
