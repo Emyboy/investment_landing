@@ -49,6 +49,7 @@
                                 <div class="form--group">
                                     <i class="las la-user"></i>
                                     <input
+                                        required
                                         type="text"
                                         name="fist-name"
                                         class="form--control"
@@ -59,6 +60,7 @@
                                 <div class="form--group">
                                     <i class="las la-user"></i>
                                     <input
+                                        required
                                         type="text"
                                         name="last-name"
                                         class="form--control"
@@ -69,6 +71,7 @@
                                 <div class="form--group">
                                     <i class="las la-user"></i>
                                     <input
+                                        required
                                         type="email"
                                         class="form--control"
                                         placeholder="Email or User Name"
@@ -78,6 +81,7 @@
                                 <div class="form--group">
                                     <i class="las la-phone"></i>
                                     <input
+                                        required
                                         type="text"
                                         name="phone-number"
                                         class="form--control"
@@ -88,6 +92,7 @@
                                 <div class="form--group">
                                     <i class="las la-lock"></i>
                                     <input
+                                        required
                                         type="password"
                                         class="form--control"
                                         placeholder="Password"
@@ -97,6 +102,7 @@
                                 <!-- <div class="form--group">
                                     <i class="las la-lock"></i>
                                     <input
+                                        required
                                         type="password"
                                         class="form--control"
                                         placeholder="Re - Password"
@@ -192,8 +198,8 @@ export default {
                     process.env.DASHBOARD_URL + `/login/${res.data.jwt}`
                 console.log('THE ENV ---', process.env)
             } catch (error) {
-                console.log('ERROR --', {...error})
-                if(error.response?.data?.error?.message){
+                console.log('ERROR --', { ...error })
+                if (error.response?.data?.error?.message) {
                     alert(error.response.data.error.message)
                 }
                 return Promise.reject(error)

@@ -49,6 +49,7 @@
                                 <div class="form--group">
                                     <i class="las la-user"></i>
                                     <input
+                                        required
                                         type="email"
                                         class="form--control"
                                         placeholder="Email"
@@ -58,6 +59,7 @@
                                 <div class="form--group">
                                     <i class="las la-lock"></i>
                                     <input
+                                        required
                                         type="password"
                                         class="form--control"
                                         placeholder="Password"
@@ -67,16 +69,15 @@
                                 <!-- <div class="form--group">
                                     <i class="las la-lock"></i>
                                     <input
+                                      required
                                         type="password"
                                         class="form--control"
                                         placeholder="Re - Password"
                                     />
                                 </div> -->
-                              
+
                                 <div class="form--group">
-                                    <button class="custom-button">
-                                        Login
-                                    </button>
+                                    <button class="custom-button">Login</button>
                                 </div>
                             </form>
                             <span class="subtitle"
@@ -103,47 +104,48 @@
 </template>
 
 <script>
-
 import VuePhoneNumberInput from 'vue-phone-number-input'
 import 'vue-phone-number-input/dist/vue-phone-number-input.css'
 import AuthServices from '../services/AuthService'
 import Cookies from 'js-cookie'
 import img from '../assets/images/about/bg.png'
 
-
 export default {
-  data() {
-    return {
-      showPTD: false,
-      identifier: null,
-      password: null,
-      
-      img
-    }
-  },
-  methods: {
-    togglePWD() {
-      this.showPTD = !this.showPTD
-    },
+    data() {
+        return {
+            showPTD: false,
+            identifier: null,
+            password: null,
 
-    async registerUser(e) {
-      e.preventDefault()
-      try {
-        const data = {
-          identifier: this.identifier,
-          password: this.password
+            img,
         }
-        console.log('SENDING ---', data)
-        const res = await AuthServices.login(data)
-        Cookies.set("auth_token", res.data.jwt, { expires: 7 });
-        window.open(process.env.DASHBOARD_URL + `/login/${res.data.jwt}`, "_self")
-      } catch (error) {
-        console.log('ERROR --', error)
-        return Promise.reject(error)
-      }
     },
-  },
-  components: { VuePhoneNumberInput },
+    methods: {
+        togglePWD() {
+            this.showPTD = !this.showPTD
+        },
+
+        async registerUser(e) {
+            e.preventDefault()
+            try {
+                const data = {
+                    identifier: this.identifier,
+                    password: this.password,
+                }
+                console.log('SENDING ---', data)
+                const res = await AuthServices.login(data)
+                Cookies.set('auth_token', res.data.jwt, { expires: 7 })
+                window.open(
+                    process.env.DASHBOARD_URL + `/login/${res.data.jwt}`,
+                    '_self'
+                )
+            } catch (error) {
+                console.log('ERROR --', error)
+                return Promise.reject(error)
+            }
+        },
+    },
+    components: { VuePhoneNumberInput },
 }
 </script>
 
