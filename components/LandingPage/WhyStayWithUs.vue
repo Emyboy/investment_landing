@@ -43,11 +43,11 @@
                                         <img src="~assets/images/choose-us/business-ico.png" alt="choose-us">
                                     </div>
                                     <div class="choose-content">
-                                        <h6 class="title">Free Transection</h6>
+                                        <h6 class="title">Fast Transaction</h6>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6">
+                            <!-- <div class="col-lg-4 col-md-4 col-sm-6">
                                 <div class="choose-item">
                                     <div class="choose-thumb">
                                         <img src="~assets/images/choose-us/user.png" alt="choose-us">
@@ -76,7 +76,7 @@
                                         <h6 class="title">High Security</h6>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

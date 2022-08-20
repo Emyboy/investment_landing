@@ -14,7 +14,7 @@
                                 <nuxt-link to="/">Home</nuxt-link>
                             </li>
                             <li>
-                                <span>Regisgration</span>
+                                <span>Registration</span>
                             </li>
                         </ul>
                     </div>
@@ -45,14 +45,25 @@
                     <div class="col-lg-5">
                         <div class="account-wrapper">
                             <h2 class="title">Create Your Account</h2>
-                            <form class="account-form">
+                            <form class="account-form" @submit="registerUser">
                                 <div class="form--group">
                                     <i class="las la-user"></i>
                                     <input
                                         type="text"
                                         name="fist-name"
                                         class="form--control"
-                                        placeholder="Full Name"
+                                        placeholder="First Name"
+                                        v-model="first_name"
+                                    />
+                                </div>
+                                <div class="form--group">
+                                    <i class="las la-user"></i>
+                                    <input
+                                        type="text"
+                                        name="last-name"
+                                        class="form--control"
+                                        placeholder="Last Name"
+                                        v-model="last_name"
                                     />
                                 </div>
                                 <div class="form--group">
@@ -61,6 +72,7 @@
                                         type="email"
                                         class="form--control"
                                         placeholder="Email or User Name"
+                                        v-model="email"
                                     />
                                 </div>
                                 <div class="form--group">
@@ -70,6 +82,7 @@
                                         name="phone-number"
                                         class="form--control"
                                         placeholder="Phone Number"
+                                        v-model="phone_number"
                                     />
                                 </div>
                                 <div class="form--group">
@@ -78,16 +91,17 @@
                                         type="password"
                                         class="form--control"
                                         placeholder="Password"
+                                        v-model="password"
                                     />
                                 </div>
-                                <div class="form--group">
+                                <!-- <div class="form--group">
                                     <i class="las la-lock"></i>
                                     <input
                                         type="password"
                                         class="form--control"
                                         placeholder="Re - Password"
                                     />
-                                </div>
+                                </div> -->
                                 <div class="d-flex">
                                     <div class="form--group custom--checkbox">
                                         <input type="checkbox" id="check01" />
@@ -104,7 +118,7 @@
                                 </div>
                                 <div class="form--group">
                                     <button class="custom-button">
-                                        REGISTRATION
+                                        Register
                                     </button>
                                 </div>
                             </form>
@@ -145,10 +159,10 @@ export default {
         return {
             showPTD: false,
             first_name: '',
-            last_name: null,
+            last_name: '',
             phone_number: null,
-            email: null,
-            password: null,
+            email: '',
+            password: '',
             img,
         }
     },
@@ -158,6 +172,7 @@ export default {
         },
 
         async registerUser(e) {
+            console.log(this.first_name)
             e.preventDefault()
             try {
                 const data = {
@@ -177,7 +192,10 @@ export default {
                     process.env.DASHBOARD_URL + `/login/${res.data.jwt}`
                 console.log('THE ENV ---', process.env)
             } catch (error) {
-                console.log('ERROR --', error)
+                console.log('ERROR --', {...error})
+                if(error.response?.data?.error?.message){
+                    alert(error.response.data.error.message)
+                }
                 return Promise.reject(error)
             }
         },
