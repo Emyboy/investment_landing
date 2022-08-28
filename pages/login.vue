@@ -51,6 +51,7 @@
                                     <input
                                         required
                                         type="email"
+                                        name="email"
                                         class="form--control"
                                         placeholder="Email"
                                         v-model="identifier"
