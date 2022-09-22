@@ -11,7 +11,7 @@
                     <div class="choose-us-right-content">
                         <div class="section-header">
                             <span class="subtitle wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">WHY CHOOSE US</span>
-                            <h2 class="title wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">Why You Should Saty With Us</h2>
+                            <h2 class="title wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">Why You Should Stay With Us</h2>
                             <p class="wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
                                To generate higher long-term profits from new industry growth while avoiding market volatility, we have built a secure platform and maintained broad diversification of performing assets. Through our profitable investment vehicles, which aim for ever-increasing market returns while minimizing the risk of periodic levels, we have preserved wealth and generated future income for our clients and investors.
                             </p>
