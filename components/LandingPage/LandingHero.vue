@@ -24,12 +24,11 @@
                 <div class="col-lg-8">
                     <div class="banner-content">
                         <h1 class="banner-title">
-                            hyip <span class="text--base">Investment </span
-                            ><span> Solutions</span>
+                            Best <span class="text--base">Investment </span
+                            ><span> Platform For Your Profit</span>
                         </h1>
                         <span class="subtitle"
-                            >Sodales integer. Eleifend elit hendrerit cras
-                            duilum uconsectetuera hymenaeos tempor facilisi
+                            >We have simplified investing by offering the following plans to help our clients earn high yields, build portfolios, and stake their profits for higher returns on investments.
                         </span>
                         <div
                             class="button-group d-flex flex-wrap align-items-center"
