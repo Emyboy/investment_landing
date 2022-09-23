@@ -5,9 +5,9 @@
                 <div class="col-lg-6">
                     <div class="how-work-left-content">
                         <div class="section-header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                            <span class="subtitle">How to Do It</span>
-                            <h2 class="title">try easy 3 stap to invest</h2>
-                            <p>Simply follow these three simple steps to begin investing. .</p>
+                            <span class="subtitle">How To Begin Investing?</span>
+                            <h2 class="title">Try these simple steps to begin investing with us!</h2>
+                            <p>Start investing in three simple steps.</p>
                         </div>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                                         </div>
                                         <div class="how-work-item-content">
                                             <h4 class="title"><a href="sign-up.html">Quick Registration</a></h4>
-                                            <p>Create an account to receive an encrypted personal wallet for your investment portfolio.</p>
+                                            <p>Create an account and complete the verification steps to receive an encrypted personal wallet for your investment portfolio.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -32,8 +32,8 @@
                                             <i class="las la-hand-holding-usd"></i>
                                         </div>
                                         <div class="how-work-item-content">
-                                            <h4 class="title"><a href="investment-plan-01.html">Make An Invest</a></h4>
-                                            <p>Choose an appropriate plan for your investment and take advantage of the benefits of reinvesting to earn compounding interest and high yields.</p>
+                                            <h4 class="title"><a href="investment-plan-01.html">Choose Your Investment Plan</a></h4>
+                                            <p>Make a deposit and fund your wallet account before selecting one of our portfolio plans to begin investing and earning high returns through our reinvestment strategies.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -46,7 +46,7 @@
                                 </div>
                                 <div class="how-work-item-content">
                                     <h4 class="title"><a href="login.html">Get Your Profit</a></h4>
-                                    <p>Stake your profit for at least 30 days and earn 18% APY, or simply choose your preferred wallet or financial provider to withdraw your profits instantly..</p>
+                                    <p>Choose from our Cryptocurrency withdrawal options, or simply choose from our list of Fiat withdrawal options to take your profit.</p>
                                 </div>
                             </div>
                         </div>

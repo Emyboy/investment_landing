@@ -19,24 +19,18 @@
                 >
                     <div class="feature-content">
                         <div class="section-header">
-                            <span class="subtitle">awesome hyip features</span>
+                            <span class="subtitle"></span>
                             <h2 class="title">Our Best Features</h2>
-                            <h4 class="title-two">Increase Your Deposits</h4>
+                            <h4 class="title-two">Increasing Your Deposits</h4>
                             <p>
-                                You can now deposit up to $150,000 in funds to
-                                trade with your preferred plan as soon as your
-                                account is funded.
+                                You can now deposit up to $150,000 to invest in any of your preferred portfolio plans.
                             </p>
                         </div>
                         <h4 class="title-two">
-                            Profit Staking and Margin Investing
+                            Reinvestment & Hedging
                         </h4>
                         <p>
-                            If eligible, take advantage of a 5% interest borrow
-                            rate on margin investing and earn up to 18% APY by
-                            staking profits for at least 30 days. Invest more in
-                            market opportunities with greater purchasing power
-                            even in a down market.
+                            Reinvest up to 70% of your earnings to earn higher returns even in a bear market. Use our hedging strategies to safeguard your portfolio against inflation, bear market activity, and volatility.
                         </p>
                         <h4 class="title-two mt-3">
                             Escrow & Custodial Services
@@ -45,7 +39,8 @@
                             Meredith Finance provides a simple and flexible
                             method for securely holding escrow funds in
                             virtually every transaction type, including multiple
-                            stocks, currencies, and smart contract deals.
+                            stocks, currencies, and smart contract deals. 
+                            Our custodial services allow you to securely manage multiple assets in one location. In our custody account, you can keep a variety of investment options such as cash, stocks, bonds, real estate investment trusts (REITs), mutual funds, and notes secured by deeds of trust or mortgages.
                         </p>
                         <!-- <ul class="feature-info-list">
                             <li>
