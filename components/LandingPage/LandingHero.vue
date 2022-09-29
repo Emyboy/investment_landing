@@ -28,7 +28,7 @@
                             ><span> Platform For Your Profit</span>
                         </h1>
                         <span class="subtitle"
-                            >We have simplified investing by offering the following plans to help our clients earn high yields, build portfolios, and stake their profits for higher returns on investments.
+                            >We have simplified investing by combining traditional and alternative asset classes with structured portfolio plans to help our clients find the right opportunities in a rapidly changing investment world.
                         </span>
                         <div
                             class="button-group d-flex flex-wrap align-items-center"
