@@ -19,33 +19,24 @@
                 >
                     <div class="feature-content">
                         <div class="section-header">
-                            <span class="subtitle">awesome hyip features</span>
+                            <span class="subtitle"></span>
                             <h2 class="title">Our Best Features</h2>
-                            <h4 class="title-two">Increase Your Deposits</h4>
+                            <h4 class="title-two">Increasing Your Deposits</h4>
                             <p>
-                                You can now deposit up to $150,000 in funds to
-                                trade with your preferred plan as soon as your
-                                account is funded.
+                                You can now deposit up to $150,000 to invest in any of your preferred portfolio plans.
                             </p>
                         </div>
                         <h4 class="title-two">
-                            Profit Staking and Margin Investing
+                            Earn High APY and Compound Interest
                         </h4>
                         <p>
-                            If eligible, take advantage of a 5% interest borrow
-                            rate on margin investing and earn up to 18% APY by
-                            staking profits for at least 30 days. Invest more in
-                            market opportunities with greater purchasing power
-                            even in a down market.
+                            Take advantage of up to 14% APY and compound interest on your deposits and portfolio balances.
                         </p>
                         <h4 class="title-two mt-3">
-                            Escrow & Custodial Services
+                            Custodial Services
                         </h4>
                         <p>
-                            Meredith Finance provides a simple and flexible
-                            method for securely holding escrow funds in
-                            virtually every transaction type, including multiple
-                            stocks, currencies, and smart contract deals.
+                            Meredith Finance offers asset protection, stock trade execution, RIAs, inheritance, health coverage, mergers and acquisitions, escrows and equities.
                         </p>
                         <!-- <ul class="feature-info-list">
                             <li>

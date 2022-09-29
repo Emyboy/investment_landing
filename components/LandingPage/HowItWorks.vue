@@ -5,9 +5,9 @@
                 <div class="col-lg-6">
                     <div class="how-work-left-content">
                         <div class="section-header wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                            <span class="subtitle">How to Do It</span>
-                            <h2 class="title">try easy 3 stap to invest</h2>
-                            <p>Simply follow these three simple steps to begin investing. .</p>
+                            <span class="subtitle">How To Begin Investing?</span>
+                            <h2 class="title">To begin investing, simply follow these three simple steps.</h2>
+                            <p></p>
                         </div>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                                         </div>
                                         <div class="how-work-item-content">
                                             <h4 class="title"><a href="sign-up.html">Quick Registration</a></h4>
-                                            <p>Create an account to receive an encrypted personal wallet for your investment portfolio.</p>
+                                            <p>Click get started to register and create an account for an encrypted wallet for your portfolio.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -32,8 +32,8 @@
                                             <i class="las la-hand-holding-usd"></i>
                                         </div>
                                         <div class="how-work-item-content">
-                                            <h4 class="title"><a href="investment-plan-01.html">Make An Invest</a></h4>
-                                            <p>Choose an appropriate plan for your investment and take advantage of the benefits of reinvesting to earn compounding interest and high yields.</p>
+                                            <h4 class="title"><a href="investment-plan-01.html">Choose Your Portfolio Plan</a></h4>
+                                            <p>Choose an appropriate investment plan and benefit from high compound interest and APYs on your deposits and balances.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -45,8 +45,8 @@
                                     <i class="las la-wallet"></i>
                                 </div>
                                 <div class="how-work-item-content">
-                                    <h4 class="title"><a href="login.html">Get Your Profit</a></h4>
-                                    <p>Stake your profit for at least 30 days and earn 18% APY, or simply choose your preferred wallet or financial provider to withdraw your profits instantly..</p>
+                                    <h4 class="title"><a href="login.html">Make A Deposit</a></h4>
+                                    <p>Make a qualifying deposit to your portfolio account within 30 days and maintain your balance for at least 90 days.</p>
                                 </div>
                             </div>
                         </div>

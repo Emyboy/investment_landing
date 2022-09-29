@@ -5,10 +5,12 @@
                 <div class="col-lg-6">
                     <div class="help-content">
                         <div class="section-header">
-                            <span class="subtitle wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">we are ready for your help</span>
+                            <span class="subtitle wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"></span>
                             <h2 class="title wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">How We Can Help You?</h2>
                             <p class="wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-                                Meredith Finance has been trusted by millions of investors globally to manage investments for over a decade. With a wide range of investment opportunities that guarantee profits, our diverse set of performing assets can help you realize your full investment potential. We have experienced wealth managers who can provide you with expert investment advice and ongoing support, as well as the tools you need to build a profitable portfolio that can withstand market volatility.
+                                We offer a wide range of investment opportunities that guarantee profits, and our structured portfolio plans can help you realize your full investment potential. Our investment team can provide you with expert investment advice and ongoing support, as well as the tools you need to build a profitable portfolio that can withstand market volatility.
+
+Sign up today, select a plan that meets your investment objectives, and reap the benefits and convenience of safe and simple investing.
                             </p>
                         </div>
                         <div class="faq-tab-menu nav-tabs nav border-0 row g-4 justify-content-center">
